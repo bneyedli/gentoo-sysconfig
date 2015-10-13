@@ -8,6 +8,7 @@
 Cmnd_Alias EMERGE = /usr/bin/eix-sync, /usr/bin/emerge --update --newuse --deep --with-bdeps=y @world, /usr/bin/emerge --depclean, /usr/bin/emerge @module-rebuild, /usr/bin/emerge --resume --skipfirst
 Cmnd_Alias ANSIBLE = /usr/bin/ansible-playbook -i ansible/hosts ansible/plays/sysconfig.yml
 Cmnd_Alias BUILD = /usr/bin/make, /bin/mv /tmp/kernel_config_bk /usr/src/linux/.config, /bin/mount /boot, /usr/bin/genkernel --lvm --mdadm --install initramfs, /usr/sbin/grub2-mkconfig -o /boot/grub/grub.cfg, /bin/umount /boot
+Cmnd_Alias PERF = /usr/sbin/smartctl -a /dev/sda
 
 ## Same thing without a password
-%teamcity ALL=(root) NOPASSWD: EMERGE, ANSIBLE, BUILD
+%teamcity ALL=(root) NOPASSWD: EMERGE, ANSIBLE, BUILD, PERF
