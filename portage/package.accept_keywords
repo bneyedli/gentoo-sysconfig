@@ -1,0 +1,24 @@
+x11-wm/compiz
+=x11-libs/libcompizconfig-0.8.8 ~amd64
+=x11-libs/compizconfig-backend-gconf-0.8.8 ~amd64
+# required by ccsm (argument)
+=dev-python/compizconfig-python-0.8.4-r5 ~amd64
+# required by ccsm (argument)
+=x11-apps/ccsm-0.8.4-r5 ~amd64
+# required by x11-plugins/compiz-plugins-main-0.8.8::gentoo
+# required by x11-plugins/compiz-plugins-extra-0.8.8::gentoo
+# required by x11-wm/compiz-fusion-0.8.8::gentoo
+# required by compiz-fusion (argument)
+=x11-libs/compiz-bcop-0.8.8 ~amd64
+# required by compiz-fusion (argument)
+=x11-wm/compiz-fusion-0.8.8 ~amd64
+# required by fusion-icon (argument)
+=x11-apps/fusion-icon-0.1-r4 ~amd64
+# required by x11-plugins/compiz-plugins-extra-0.8.8::gentoo
+# required by x11-wm/compiz-fusion-0.8.8::gentoo
+# required by compiz-fusion (argument)
+=x11-plugins/compiz-plugins-main-0.8.8 ~amd64
+# required by x11-wm/compiz-fusion-0.8.8::gentoo
+# required by compiz-fusion (argument)
+=x11-plugins/compiz-plugins-extra-0.8.8 ~amd64
+=dev-java/nexus-oss-bin-2.11.4 ~amd64
