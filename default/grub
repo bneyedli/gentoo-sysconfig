@@ -27,7 +27,7 @@ GRUB_DISTRIBUTOR="Gentoo"
 # GRUB_CMDLINE_LINUX="net.ifnames=0"
 #
 # Boot with systemd instead of sysvinit (openrc)
-GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd rootfstype=ext4"
+GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd rootfstype=ext4 cgroup_enable=memory"
 
 # Append parameters to the linux kernel command line for non-recovery entries
 #GRUB_CMDLINE_LINUX_DEFAULT=""
