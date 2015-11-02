@@ -22,3 +22,4 @@ x11-wm/compiz
 # required by compiz-fusion (argument)
 =x11-plugins/compiz-plugins-extra-0.8.8 ~amd64
 =dev-java/nexus-oss-bin-2.11.4 ~amd64
+=virtual/jdk-1.8.0 ~amd64
