@@ -27,7 +27,7 @@ GRUB_DISTRIBUTOR="Gentoo"
 # GRUB_CMDLINE_LINUX="net.ifnames=0"
 #
 # Boot with systemd instead of sysvinit (openrc)
-GRUB_CMDLINE_LINUX="rootfstype=ext4 cgroup_enable=memory vga=792 video=uvesafb:1024x768-32,mtrr:3,ywrap splash=silent,theme:gentoo console=tty1 quiet enforcing=0"
+GRUB_CMDLINE_LINUX="rootfstype=ext4 cgroup_enable=memory vga=792 video=uvesafb:1024x768-32,mtrr:3,ywrap splash=silent,theme:gentoo console=tty1 quiet selinux=0"
 
 # Append parameters to the linux kernel command line for non-recovery entries
 #GRUB_CMDLINE_LINUX_DEFAULT=""
