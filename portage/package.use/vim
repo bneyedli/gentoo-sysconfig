@@ -1,1 +1,5 @@
 app-editors/vim -X python
+# required by app-emulation/libvirt-1.2.18-r1::gentoo[virt-network]
+# required by @selected
+# required by @world (argument)
+>=net-dns/dnsmasq-2.72-r2 script
