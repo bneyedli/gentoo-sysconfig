@@ -1,5 +1,6 @@
 # server memory options (JVM options)
 TEAMCITY_SERVER_MEM_OPTS="-Xms750m -Xmx750m -XX:MaxPermSize=270m"
+#TEAMCITY_SERVER_MEM_OPTS="-Xmx512m -XX:MaxPermSize=270m"
 # additional server JVM options
 TEAMCITY_SERVER_OPS=""
 # path to TeamCity data directory
@@ -15,6 +16,6 @@ TEAMCITY_AGENT_OPTS=""
 # path to logs
 TEAMCITY_LOG_PATH="/var/log/teamcity"
 # path to pidfile
-TEAMCITY_PID_FILE_PATH="/var/run/teamcity/teamcity.pid"
+TEAMCITY_PID_FILE_PATH="/var/data/teamcity/server.pid"
 # TeamCity Home
 TEAMCITY_HOME="/opt/teamcity"
