@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/bin/mount /var/cache/ccache/
+/usr/bin/rsync -a /var/data/ccache/ /var/cache/ccache/&
